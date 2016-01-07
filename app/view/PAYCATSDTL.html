@@ -1,0 +1,43 @@
+
+<!-- START MAIN CONTENT -->
+
+<div class="ui-wrap container">
+	<!-- START TOP BUTONS -->
+	<div class="topNav button-toolbar" id="topNav">
+		<button data-AlternateNode=" "data-AlternateMeth=" "data-AlternateField=" "data-AlternateAlias=" "type="button"        name="Save"    ng-click="Save()"    data-action="Save"        data-Function="cfSaveDtlAction" data-Name="Custom" data-SecKey="15244296193304358354314208357278203128342122289031840562430209528807657"                data-SecType="P_O"        data-glyphover=""                        data-glyphpressname=""        id="Save"        Screen="PayCatsDtl"                data-screen= "PayCatsDtl"                        class="ui-state-default ui-corner-all btn btn-primary"        ButtonType=" "        Module=" "	><span class="glyphicon glyphicon-floppy-save"></span>	Save</button>
+		<button data-AlternateNode=" "data-AlternateMeth=" "data-AlternateField=" "data-AlternateAlias=" "type="button"        name="Cancel"  ng-click ="Cancel()"      data-action="Cancel"        data-Function=""      data-Name="Close"                         data-glyphover=""                        data-glyphpressname=""        id="Cancel"        Screen="PayCatsDtl"                data-screen= "PayCatsDtl"                        class="ui-state-default ui-corner-all btn btn-primary"        ButtonType=" "        Module=" "	><span class="glyphicon glyphicon-remove"></span>Cancel</button>
+	</div>
+	<!-- END TOP BUTTONS -->
+	<form action="" class="form-inline" name="componentForm" id="componentFormId">
+		<div class="form-group">
+		<input  data-list="false" type="hidden" name="screentype" value="@SCREENTYPE" id="screentype"/>
+		<input  data-list="false" type="hidden" name="screenname" value="@PAGETITLE" id="screenname"/>
+		<input  data-list="false" type="hidden" name="min-filter" value="1" id="min-filter"/>
+		</div>
+		<!-- START TAB PANEL GROUP -->
+		<div class="form-group">
+		<div class="cel-tabs" id="cel-component">
+			<!-- AS MANY TAB PANELS AS ARE NEEDED CAN BE PLACED HERE  -->
+			<fieldset id="dataset-0">
+				<legend class="ui-widget-header">New</legend>
+				<section>
+					<div class="formRow">	<span class="component-wrapper">
+						<label for="Pay Categories">Pay Categories</label>
+						<input class="form-control" type="text" ng-model="TBPAYCATEGORIES.PAY_CATEGORY_LABEL" id="PayCategories" name="Pay Categories" data-alias="" data-type="String" data-operation="=" data-componentype="CT1"       data-required="N" data-useIn="0"   data-IsHidden="N"  data-table="tbPayCategories" data-property="PAY_CATEGORY_LABEL"       data-disabled="N" value="" data-sizetype="4" data-remain=""       capitalization="ALLCAPS" data-mask="" /></span>
+						<span class="component-wrapper">
+							<label for="GL Code">GL Code</label>
+							<input class="form-control"  type="text" ng-model="TBPAYCATEGORIES.GL_CODE" id="GLCode" name="GL Code" data-alias="" data-type="String" data-operation="=" data-componentype="CT1"       data-required="N" data-useIn="0"   data-IsHidden="N"  data-table="tbPayCategories" data-property="GL_CODE"       data-disabled="N" value="" data-sizetype="4" data-remain="N"       capitalization="ALLCAPS" data-mask="" /></span>
+					</div>
+					<div class="formRow"></div>
+				</section>
+			</fieldset>
+		</div>
+		<div class="clear"></div>
+		<div class="cel-tabs" id="cel-tabs">
+			<!-- AS MANY TAB PANELS AS ARE NEEDED CAN BE PLACED HERE -->
+		</div>
+			</div>
+		<!-- END TAB PANEL GROUP -->
+	</form>
+	<div class="clear"></div>
+</div>
